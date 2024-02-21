@@ -1,0 +1,57 @@
+<linguaggio>
+    <sezioniPagina>Cambia interfaccia</sezioniPagina>
+    <sezioneAccedi>Accedi</sezioneAccedi>
+    <sezioneListaAnime>Lista anime</sezioneListaAnime>
+    <sezioneAggiungiAnime>Aggiungi anime</sezioneAggiungiAnime>
+    <sezioneRegistrazione>Registrazione</sezioneRegistrazione>
+    
+    <username>Username</username>
+    <password>Password</password>
+    <sottotitolo>"Il sito dove segnare gli anime che devi ancora vedere"</sottotitolo>
+    <consiglioLogin>Accedi in modo sicuro alla nostra applicazione</consiglioLogin>
+    <bottoneAccedi>Accedi</bottoneAccedi>
+    
+    <nome>Nome</nome>
+    <genere>Genere</genere>
+    <episodi>Episodi</episodi>
+    <durata>Durata</durata>
+    <trailer>Trailer</trailer>
+    <vediTrailer>Guarda il trailer</vediTrailer>
+    
+    <rimuovi>Rimuovi dalla lista</rimuovi>
+    <descrizioneListaAnime>Qua puoi visualizzare la lista degli anime che hai nel tuo profilo, cliccando col tasto destro sulla riga stabilita puoi rimuovere dalla tua lista il seguente anime. Se vuoi inserirne uno nuovo basta che vai alla pagina "Aggiungi anime".</descrizioneListaAnime>
+
+    <descrizioneAggiungiAnime>Qua puoi aggiungere alla tua lista personale gli anime che vorrai vedere</descrizioneAggiungiAnime>
+    <labelNomeAnime>Cerca per nome</labelNomeAnime>
+    <cercaAnime>Cerca nel nostro archivio</cercaAnime>
+    <inserisci>Inserisci nella tua lista</inserisci>
+    <inserimentoCorretto>Inserimento riuscito con successo</inserimentoCorretto>
+    
+    <inventaPassword>Crea la tua password</inventaPassword>
+    <confermaPassword>Conferma password</confermaPassword>
+    <bottoneRegistrati>Registrati</bottoneRegistrati>
+    <consiglioRegistrazione>Registrati in modo sicuro alla nostra applicazione</consiglioRegistrazione>
+    
+    <notificaListaVuota>La tua lista di anime è vuota, aggiungine alcuni!</notificaListaVuota>
+    <notificaRicercaAnimeVuota>Non esiste nel nostro database un anime del genere</notificaRicercaAnimeVuota>
+    <notificaInserimentoCorretto>L'anime è stato inserito correttamente</notificaInserimentoCorretto>
+    <notificaAnimeGiaInLista>L'anime si trova già nella tua lista</notificaAnimeGiaInLista>
+    
+    <erroreAccesso>Accesso negato, riprova</erroreAccesso>
+    <errorePopolamento>Prima devi popolare il database</errorePopolamento>
+    <erroreNonCredenziali>Digita username e password</erroreNonCredenziali>
+    <erroreUsernameInesistente>L'username non è valido</erroreUsernameInesistente>
+    <erroreNomeAnimeMancanteNellaRicerca>Devi inserire il nome dell'anime, o parte di esso, che vuoi cercare</erroreNomeAnimeMancanteNellaRicerca>
+    <erroreNessunAnimeSelezionato>Non è stato selezionato alcun anime dalla tabella</erroreNessunAnimeSelezionato>
+    <erroreParametriClient>I parametri passati nella richiesta non solo validi</erroreParametriClient>
+    <erroreTrailerNonDisponibile>Il trailer del seguente anime non è disponibile sul nostro servizio</erroreTrailerNonDisponibile>
+    <erroreAperturaTrailerSONonSupportato>Ci scusiamo, il trailer non puo' essere aperto sul suo sistema operativo</erroreAperturaTrailerSONonSupportato>
+    <erroreUsernameGiaEsistente>Username già in uso</erroreUsernameGiaEsistente>
+    <erroreDigitaCampiRegistrazione>Devi ancora completare alcuni campi</erroreDigitaCampiRegistrazione>
+    <errorePasswordNonCoincidenti>Le due password non coincidono</errorePasswordNonCoincidenti>
+    <erroreAccessoPagina>Prima di accedere a questa sezione devi fare il login</erroreAccessoPagina>
+    
+    <erroreNonImplementato>Risposta non implementata</erroreNonImplementato>
+    <erroreServerIrraggiungibile>E' stato rilevato un problema col server</erroreServerIrraggiungibile>
+    <erroreGenerico>L'applicazione ha riscontrato un errore</erroreGenerico>
+</linguaggio>

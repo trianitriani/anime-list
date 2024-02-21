@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main Borderpane start -->
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.valtriani.client.AnimeController">
+   <top>
+      <MenuBar maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="640.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="menuLingue" mnemonicParsing="false" text="Italiano" />
+          <Menu fx:id="menuPagine" mnemonicParsing="false" text="Sezioni pagina" />
+        </menus>
+      </MenuBar>
+   </top>
+   <bottom>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="640.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="animeTable" layoutX="6.0" layoutY="65.0" prefHeight="341.0" prefWidth="625.0">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem fx:id="rimuovi" mnemonicParsing="false" onAction="#rimuoviAnime" text="Rimuovi dalla lista" />
+                        <MenuItem fx:id="vediTrailer" mnemonicParsing="false" onAction="#vediTrailer" text="Guarda trailer" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TableView>
+            <Text fx:id="descrizioneListaAnime" layoutX="11.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qua puoi visualizzare la lista degli anime che hai nel tuo profilo, cliccando col tasto destro sulla riga stabilita puoi rimuovere dalla tua lista il seguente anime. Se vuoi inserirne uno nuovo basta che vai alla pagina &quot;Aggiungi anime&quot;." wrappingWidth="614.67919921875" />
+            <Text fx:id="notifica" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: red;" text="Server non raggiungibile" textAlignment="CENTER" visible="false" wrappingWidth="640.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

@@ -1,0 +1,57 @@
+<linguaggio>
+    <sezioniPagina>Change interface</sezioniPagina>
+    <sezioneAccedi>Log in</sezioneAccedi>
+    <sezioneListaAnime>Anime list</sezioneListaAnime>
+    <sezioneAggiungiAnime>Add anime</sezioneAggiungiAnime>
+    <sezioneRegistrazione>Submit</sezioneRegistrazione>
+    
+    <username>Username</username>
+    <password>Password</password>
+    <sottotitolo>"The site to mark the anime you have yet to see"</sottotitolo>
+    <consiglioLogin>Log in securely to our application</consiglioLogin>
+    <bottoneAccedi>Log in</bottoneAccedi> 
+    
+    <nome>Name</nome>
+    <genere>Genre</genere>
+    <episodi>Episodes</episodi>
+    <durata>Duration</durata>
+    <trailer>Trailer</trailer>
+    <vediTrailer>See the trailer</vediTrailer>
+    
+    <rimuovi>Remove from list</rimuovi>
+    <descrizioneListaAnime>Here you can view the list of anime you have in your profile, by right clicking on the set line you can remove the following anime from your list. If you want to add a new one, just go to the "Add anime" page.</descrizioneListaAnime>
+    
+    <descrizioneAggiungiAnime>Here you can add the anime you want to watch to your personal list</descrizioneAggiungiAnime>
+    <labelNomeAnime>Search for name</labelNomeAnime>
+    <cercaAnime>Search our archive</cercaAnime>
+    <inserisci>Insert into your list</inserisci>
+    <inserimentoCorretto>Insertion successful</inserimentoCorretto>
+    
+    <inventaPassword>Create your password</inventaPassword>
+    <confermaPassword>Confirm password</confermaPassword>
+    <bottoneRegistrati>Sign in</bottoneRegistrati>
+    <consiglioRegistrazione>Register securely in our application</consiglioRegistrazione>
+    
+    <notificaListaVuota>Your anime list is empty, please add some!</notificaListaVuota>
+    <notificaRicercaAnimeVuota>There is no such anime in our database</notificaRicercaAnimeVuota>
+    <notificaInserimentoCorretto>The anime has been entered successfully</notificaInserimentoCorretto>
+    <notificaAnimeGiaInLista>The anime is already in your list</notificaAnimeGiaInLista>
+    
+    <erroreAccesso>Access denied, please try again</erroreAccesso>
+    <errorePopolamento>First you need to populate the database</errorePopolamento>
+    <erroreNonCredenziali>Enter your username and password</erroreNonCredenziali>  
+    <erroreUsernameInesistente>Username is not valid</erroreUsernameInesistente>
+    <erroreNomeAnimeMancanteNellaRicerca>You must insert the name of anime that you want to search, or part of this</erroreNomeAnimeMancanteNellaRicerca>
+    <erroreNessunAnimeSelezionato>No anime has been selected from the table</erroreNessunAnimeSelezionato>
+    <erroreParametriClient>The parameters passed in the request are not just valid</erroreParametriClient>
+    <erroreTrailerNonDisponibile>The trailer of the following anime is not available on our service</erroreTrailerNonDisponibile>
+    <erroreAperturaTrailerSONonSupportato>We apologize, the trailer cannot be opened on your operating system</erroreAperturaTrailerSONonSupportato>
+    <erroreUsernameGiaEsistente>Username already used</erroreUsernameGiaEsistente>
+    <erroreDigitaCampiRegistrazione>You still need to complete some fields</erroreDigitaCampiRegistrazione>
+    <errorePasswordNonCoincidenti>The two password are not the same</errorePasswordNonCoincidenti>
+    <erroreAccessoPagina>You must log in before accessing this section</erroreAccessoPagina>
+    
+    <erroreNonImplementato>Response not implemented</erroreNonImplementato>
+    <erroreServerIrraggiungibile>Is been detect an server problem</erroreServerIrraggiungibile>
+    <erroreGenerico>The application has encountered an error</erroreGenerico>
+</linguaggio>

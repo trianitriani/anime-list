@@ -1,0 +1,151 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+/* 
+    Created on : 11 gen 2023, 11:17:17
+    Author     : loren
+*/
+
+
+/* per i Text */
+.text-red {
+    -fx-fill: red ;
+}
+
+.text-green {
+    -fx-fill: green ;
+}
+
+.text-yellow {
+    -fx-fill: #AED500;
+}
+
+TextField, PasswordField {
+    -fx-pref-width: 200;
+    -fx-pref-heigth: 25;
+}
+
+TextField:focused, PasswordField:focused {
+    -fx-border-width: 1;
+    -fx-border-color: #8CC7A0
+}
+
+Button {
+    -fx-border-width: 1;
+    -fx-border-radius: 5%;
+    -fx-background-radius: 5%;
+    -fx-text-fill: white;
+}
+
+Button:hover {
+    -fx-cursor: hand;
+}
+
+#cercaAnime {
+    -fx-pref-width: 169;
+    -fx-pref-heigth: 25;
+}
+
+Button {
+    -fx-background-color: #8CC7A0;
+}
+
+#bottoneAccedi, #bottoneRegistrati {
+    -fx-pref-width: 75;
+    -fx-pref-heigth: 25;
+}
+
+.table-view {
+    -fx-pref-heigth: 280;
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #6CB784, white);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 10px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #8CC7A0;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+    -fx-background-color: #6CB784;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #6CB784, #8CC7A0);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #6CB784, #8CC7A0);
+}
+
+/* stile del menu */
+MenuBar,
+.menu-button {
+    -fx-background-color: #8CC7A0;
+}
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.menu-item:focused {
+     -fx-background-color: #6CB784;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+/* ciò che contiene i MenuItems */
+.context-menu {
+    -fx-background-color: #8CC7A0;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+
+.root {
+    -fx-font-family: Verdana;
+}
